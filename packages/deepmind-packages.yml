@@ -1,0 +1,65 @@
+generated: '2026-07-18'
+method: searched
+source: https://pypi.org (google-deepmind org)
+note: >-
+  First-party open-source Python libraries published by Google DeepMind on PyPI
+  (github.com/google-deepmind). These are ML/JAX research libraries, not REST API
+  client SDKs — DeepMind's model access (Gemini/Gemma) is delivered through the
+  Google AI / Vertex AI SDKs, not a first-party DeepMind API client.
+packages:
+- language: python
+  registry: pypi
+  name: dm-haiku
+  url: https://pypi.org/project/dm-haiku/
+  repository: https://github.com/google-deepmind/dm-haiku
+  install: pip install dm-haiku
+  description: JAX-based neural network library (Haiku).
+  official: true
+- language: python
+  registry: pypi
+  name: optax
+  url: https://pypi.org/project/optax/
+  repository: https://github.com/google-deepmind/optax
+  install: pip install optax
+  description: Gradient processing and optimization library for JAX.
+  official: true
+- language: python
+  registry: pypi
+  name: chex
+  url: https://pypi.org/project/chex/
+  repository: https://github.com/google-deepmind/chex
+  install: pip install chex
+  description: Testing and reliability utilities for JAX code.
+  official: true
+- language: python
+  registry: pypi
+  name: dm-tree
+  url: https://pypi.org/project/dm-tree/
+  repository: https://github.com/google-deepmind/tree
+  install: pip install dm-tree
+  description: Library for working with nested data structures (tree).
+  official: true
+- language: python
+  registry: pypi
+  name: dm-env
+  url: https://pypi.org/project/dm-env/
+  repository: https://github.com/google-deepmind/dm_env
+  install: pip install dm-env
+  description: Python interface for reinforcement learning environments.
+  official: true
+- language: python
+  registry: pypi
+  name: dm-control
+  url: https://pypi.org/project/dm-control/
+  repository: https://github.com/google-deepmind/dm_control
+  install: pip install dm-control
+  description: Continuous control environments and MuJoCo bindings.
+  official: true
+- language: python
+  registry: pypi
+  name: dm-pix
+  url: https://pypi.org/project/dm-pix/
+  repository: https://github.com/google-deepmind/dm_pix
+  install: pip install dm-pix
+  description: Image processing functions in JAX (PIX).
+  official: true
