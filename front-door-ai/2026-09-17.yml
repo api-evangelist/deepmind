@@ -1,0 +1,34 @@
+# Front Door AI Index — deepmind — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: deepmind
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: deepmind.google
+  final_host: deepmind.google
+  ownership: own
+  owner: deepmind
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 101
+  host_score: 101
+  density: 78.54
+  words: 1286
+  tiers:
+    agentic: 4
+    core: 50
+    model: 47
+  ambiguous: 20
+  top_terms:
+    AI: 47
+    Gemini: 47
+    agent: 12
+    intelligence: 7
+    agentic: 2
+    artificial intelligence: 2
+    AI agent: 1
+    autonomous agent: 1
+    gen ai: 1
+    predictive: 1
