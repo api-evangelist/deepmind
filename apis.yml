@@ -47,7 +47,7 @@ image: https://lh3.googleusercontent.com/BJIjbCcZWJxE1GFvgIXWdWFXW0ECXBzsBe-JHx9
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Foundation Models
 - LLM
 - Research
@@ -62,6 +62,7 @@ tags_raw:
 - Research
 - Robotics
 - Developer Tools
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
