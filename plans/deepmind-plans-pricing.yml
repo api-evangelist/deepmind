@@ -1,0 +1,161 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://ai.google.dev/gemini-api/docs/pricing
+sources:
+- https://ai.google.dev/gemini-api/docs/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T113201
+  grounding: every price_text was found verbatim in the fetched page text
+audience: developer-api
+pricing_basis: per-call
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Paid
+published: true
+note: Extensive per-model token pricing table for Gemini Developer API; free/paid/enterprise tiers at
+  top (enterprise is Contact Sales). Only a representative subset of the many model line items captured.
+plan_count: 21
+currency: USD
+plans:
+- name: Free
+  price_text: Get started for Free
+  currency: USD
+  period: none
+  included_quota: Limited access to certain models; free input & output tokens; Google AI Studio access;
+    content used to improve our products
+- name: Paid
+  price_text: Upgrade to Paid
+  currency: USD
+  period: none
+  included_quota: Higher rate limits, context caching, Batch API (50% cost reduction), advanced models
+- name: Enterprise
+  price_text: Contact Sales
+  period: none
+  included_quota: All features in Paid plus dedicated support, provisioned throughput, volume-based discounts
+- name: Gemini 3.8 Flash input
+  price_text: $0.75 through December 31, 2026.
+  price: 0.75
+  currency: USD
+  period: per-use
+  unit: per 1M tokens
+  included_quota: 'Free tier: free of charge'
+  overage: $1.50 starting January 1, 2027.
+- name: Gemini 3.8 Flash output
+  price_text: $3.75 through December 31, 2026.
+  price: 3.75
+  currency: USD
+  period: per-use
+  unit: per 1M tokens (including thinking)
+  overage: $7.50 starting January 1, 2027.
+- name: Gemini 3.5 Flash input
+  price_text: $1.50
+  price: 1.5
+  currency: USD
+  period: per-use
+  unit: per 1M tokens
+- name: Gemini 3.5 Flash output
+  price_text: $9.00
+  price: 9
+  currency: USD
+  period: per-use
+  unit: per 1M tokens
+- name: Gemini 3.5 Flash-Lite input
+  price_text: $0.30 (text / image / video / audio)
+  price: 0.3
+  currency: USD
+  period: per-use
+  unit: per 1M tokens
+- name: Gemini 3.5 Flash-Lite output
+  price_text: $2.50
+  price: 2.5
+  currency: USD
+  period: per-use
+  unit: per 1M tokens
+- name: Gemini 3.1 Pro Preview input
+  price_text: $2.00, prompts <= 200k tokens
+  price: 2
+  currency: USD
+  period: per-use
+  unit: per 1M tokens
+  overage: $4.00, prompts > 200k tokens
+- name: Gemini 3.1 Pro Preview output
+  price_text: $12.00, prompts <= 200k tokens
+  price: 12
+  currency: USD
+  period: per-use
+  unit: per 1M tokens
+  overage: $18.00, prompts > 200k
+- name: Gemini 2.5 Pro input
+  price_text: $1.25, prompts <= 200k tokens
+  price: 1.25
+  currency: USD
+  period: per-use
+  unit: per 1M tokens
+  overage: $2.50, prompts > 200k tokens
+- name: Gemini 2.5 Flash input
+  price_text: $0.30 (text / image / video)
+  price: 0.3
+  currency: USD
+  period: per-use
+  unit: per 1M tokens
+  overage: $1.00 (audio)
+- name: Gemini 2.5 Flash-Lite output
+  price_text: $0.40
+  price: 0.4
+  currency: USD
+  period: per-use
+  unit: per 1M tokens
+- name: Gemini 3 Pro Image output (images)
+  price_text: $120.00 (images)
+  price: 120
+  currency: USD
+  period: per-use
+  unit: per 1M tokens
+- name: Veo 3.1 Standard video with audio
+  price_text: $0.40 (720p and 1080p)
+  price: 0.4
+  currency: USD
+  period: per-use
+  unit: per second
+  overage: $0.60 (4k)
+- name: Lyria 3.5 (Full Song)
+  price_text: $0.08 per song
+  price: 0.08
+  currency: USD
+  period: per-use
+  unit: per request
+- name: Gemini Embedding 2 text input
+  price_text: $0.20
+  price: 0.2
+  currency: USD
+  period: per-use
+  unit: per 1M tokens
+- name: Grounding with Google Search (Gemini 3 models)
+  price_text: 5,000 free search requests per month (shared across all Gemini models), then $14 per 1,000
+    requests.
+  price: 14
+  currency: USD
+  period: per-use
+  unit: per 1,000 requests
+  included_quota: 5,000 free search requests per month
+- name: File search embeddings
+  price_text: Charged for embeddings at $0.15 / 1M tokens.
+  price: 0.15
+  currency: USD
+  period: per-use
+  unit: per 1M tokens
+- name: Gemma 4
+  price_text: Free of charge
+  period: per-use
+  unit: per 1M tokens
+  included_quota: Free tier only; paid tier not available
+rate_limit_statements:
+- 500 RPD free (limit shared for Flash and Flash-Lite). Not available for Pro.
+- 1,500 RPD free (limit shared for Flash and Flash-Lite)
+- 10,000 RPD free for Pro.
+- Free of charge, up to 500 RPD (limit shared with Flash-Lite RPD)
+- Rate limits are subject to change.
