@@ -64,6 +64,94 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-DeepMind is a company surfaced as a portfolio company of founders-fund and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+Google DeepMind is an artificial intelligence research laboratory and product organization behind the Gemini and Gemma foundation model families, the AlphaFold protein-structure prediction system, WeatherNext atmospheric forecasting, and Gemini Robotics. Founded in London and now part of Google, DeepMind combines frontier AI research with public and developer-facing model deployment. Its models are exposed to developers through the Google AI / Gemini API and Google AI Studio, while its research tooling ships as first-party open-source JAX libraries (Haiku, Optax, Chex, dm-control, and more) on GitHub and PyPI. Originally an independent startup backed by early investors including Founders Fund before its acquisition by Google.
 
-Backed by: founders-fund — https://deepmind.google
+**Areas:** Company · Artificial Intelligence · Machine Learning · Foundation Models · LLM · Research · Robotics · Developer Tools
+
+## DeepMind on APIs.io
+
+Everything profiled for DeepMind is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/deepmind/](https://apis.io/providers/deepmind/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Deepmind Domain Security](https://apis.io/security/deepmind/deepmind-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Deepmind Plans Pricing](https://apis.io/plans/deepmind/deepmind-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://deepmind.google)
+- [Documentation](https://ai.google.dev/gemini-api/docs)
+- [Getting started](https://ai.google.dev/gemini-api/docs/quickstart)
+- [API reference](https://ai.google.dev/api)
+- [Pricing](https://ai.google.dev/gemini-api/docs/pricing)
+- [Sign up](https://aistudio.google.com/)
+- [Blog](https://deepmind.google/discover/blog/)
+- [Terms of service](https://ai.google.dev/gemini-api/terms)
+- [Privacy policy](https://policies.google.com/privacy)
+- [GitHub](https://github.com/google-deepmind)
+
+## API Evangelist rating
+
+**Kin Score 28.5** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 76.3 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.7** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/deepmind/](https://apis.io/providers/deepmind/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for DeepMind: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/deepmind/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
